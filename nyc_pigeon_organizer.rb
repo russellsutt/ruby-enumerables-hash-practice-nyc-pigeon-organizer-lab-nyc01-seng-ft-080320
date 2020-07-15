@@ -27,10 +27,9 @@ def nyc_pigeon_organizer(data)
         if array.include?(name)
         else array[name] = {}
         end
-      end
-      if array.include?(key)
-      else array[name][key] = []
-      end
+        if array.include?(key)
+        else array[name][key] = []
+        end
       array[name][key].push(inner_key.to_s)
       end
     end
