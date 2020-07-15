@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, names|
       names.each do |name|
         if
-          array.include? name
+          array.include?(name)
         else
           array << name
         end
