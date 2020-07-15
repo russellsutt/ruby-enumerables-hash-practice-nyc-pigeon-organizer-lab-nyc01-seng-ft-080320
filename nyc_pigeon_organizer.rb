@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
         else
           array[name] = {}
         end
-        binding.pry
+        
       end
     end
   end
