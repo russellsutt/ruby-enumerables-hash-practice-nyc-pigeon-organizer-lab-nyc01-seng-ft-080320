@@ -18,6 +18,14 @@ pigeon_data = {
 }
 
 
-def nyc_pigeon_organizer(pigeon_data)
+def nyc_pigeon_organizer(data)
+  data.each_
+  
   
 end
+
+
+
+
+
+
