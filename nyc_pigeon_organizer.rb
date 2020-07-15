@@ -27,7 +27,7 @@ def nyc_pigeon_organizer(data)
         if
           array.include?(name)
         else
-          array << name
+          array[name] = {}
         end
       binding.pry
     end
