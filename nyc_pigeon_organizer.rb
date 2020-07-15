@@ -30,6 +30,7 @@ def nyc_pigeon_organizer(data)
         if array.include?(key)
         else array[name][key] = []
         end
+        array[name][key].push
       end
     end
   end
