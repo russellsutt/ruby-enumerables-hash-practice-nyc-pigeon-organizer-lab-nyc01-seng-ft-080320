@@ -28,7 +28,9 @@ def nyc_pigeon_organizer(data)
           array.include?(name)
         else
           array[name] = {}
+          binding.pry
         end
+        
       binding.pry
     end
   end
