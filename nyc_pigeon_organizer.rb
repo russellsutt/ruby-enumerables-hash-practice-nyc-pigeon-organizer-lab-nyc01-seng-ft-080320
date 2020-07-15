@@ -28,6 +28,7 @@ def nyc_pigeon_organizer(data)
           array.include? name
         else
           array << name
+        end
       binding.pry
     end
   end
